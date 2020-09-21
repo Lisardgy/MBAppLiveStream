@@ -1,0 +1,81 @@
+.ons-toolbar{
+    background-color: crimson;
+}
+
+.coumovie1 {
+    background: url(/lib/images/fttb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.coumovie2 {
+    background: url(/lib/images/joker.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.coumovie3 {
+    background: url(/lib/images/tenet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topmovie1 {
+    
+    background-repeat: repeat;
+    
+}
+
+
+.top5{
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    background-color: white;
+    
+}
+
+
+
+#home{
+    background-color: white;
+}
+
+.describetion{
+    color: white;
+    font-size: smaller;
+}
+
+#more {display: none;}
+
+.position{
+    text-align: right;
+    padding-right: 10px;
+}
+
+.searchimage{
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.rating{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.starspace{
+    padding-left: 5px;
+    
+}
+
+.imgdetail{
+    margin-top: 15px;
+}
+
+.textcenter{
+    text-align: center;
+    margin-bottom: 15px;
+}
+

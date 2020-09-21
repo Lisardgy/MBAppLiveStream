@@ -1,0 +1,37 @@
+<ons-page id="homepage">
+<ons-navigator swipeable id="myNavigator" page="page1.html"></ons-navigator>
+
+<template id="page1.html">
+    <ons-page id="home">
+        <div class="top5">
+            <h3><b>
+                    <ons-icon icon="md-fire"></ons-icon> HOT!
+                </b></h3>
+        </div>
+        <ons-carousel fullscreen swipeable auto-scroll overscrollable id="carousel" style="height: 80%;">
+            <ons-carousel-item id="selectedmovie1" class="coumovie1"></ons-carousel-item>
+            <ons-carousel-item id="selectedmovie2" class="coumovie2"></ons-carousel-item>
+            <ons-carousel-item id="selectedmovie3" class="coumovie3"></ons-carousel-item>
+        </ons-carousel>
+        <div class="top5">
+            <h3><b>TOP 1 of Something</b></h3>
+        </div>
+        <div>
+            <ons-row>
+                <ons-col><img src="/lib/images/avatar.jpg" style="padding-left: 10px; padding-top: 10px; width: 80%;;"
+                        alt=""></ons-col>
+                <ons-col>
+                    <p style="padding-right: 10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+                        imperdiet, nulla et dictum
+                        interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span id="more">erisque enim
+                            ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa.
+                            Fusce luctus vestibulum augue ut aliquet.</span></p>
+                    <div class="position">
+                        <button onclick="morefunction()" id="myBtn">See more</button>
+                    </div>
+                </ons-col>
+            </ons-row>
+        </div>
+    </ons-page>
+</template>
+</ons-page>
